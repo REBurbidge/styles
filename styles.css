@@ -1,0 +1,133 @@
+/* STYLES 
+
+COMMENTS + NOTES TO MYSELF!!
+
+
+*/
+
+
+
+body {
+    background: #ffffff;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding-right: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: right;
+    background: rgb(91, 74, 108);
+    min-height: 100vh;
+    padding: 10px 16px;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: right;
+    background: rgb(91, 74, 108);
+    min-height: 20vh;
+    padding: 10px 16px;
+}
+
+
+
+
+/* Specialty
+====================================================
+*/
+
+li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+
+
+a:visited {
+    color: black
+}
+
+  a:hover {
+    color: rgb(91, 74, 108);
+    font-size: larger;
+}
+
+
+/* TYPOGRAPHY 
+====================================================
+*/
+
+em { 
+    padding-right: 50px;
+    color: hwb(208 94% 0%);
+}
+
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    line-height: 80%;
+    letter-spacing: normal;
+    text-align: right;
+    word-spacing: 10000px;
+    margin-bottom: 0%;
+    padding-right: 25px;
+    color: aliceblue;
+}
+
+h2 {
+    color: rgb(91, 74, 108);
+    font-size: 25px;
+    line-height: 95%;
+    letter-spacing: -1px;
+    margin-top: 30px;
+    margin-bottom: 25px
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 95%;
+    letter-spacing: -1px;
+    margin-top: 25px;
+    margin-left: -25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(91, 74, 108);
+    width: 100vw;
+    text-indent: 25px;   
+}
+
+h4 {
+    color: black;
+    font-size: 17.5px;
+    line-height: 95%;
+    letter-spacing: -1px;
+    margin-top: 30px;
+    margin-bottom: 25px
+}
+
+h6 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    line-height: 80%;
+    letter-spacing: normal;
+    text-align: right;
+    word-spacing: 10000px;
+    margin-bottom: 0%;
+    padding-right: 25px;
+    color: aliceblue;
+}
